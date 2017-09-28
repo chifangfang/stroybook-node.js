@@ -1,0 +1,19 @@
+{
+  "presets": ["env", "stage-0", "react"],
+  "plugins": [
+    ["transform-runtime", {
+      "polyfill": false,
+      "regenerator": true
+    }],
+    "transform-decorators-legacy",
+    "syntax-object-rest-spread",
+    "transform-export-extensions",
+    ["transform-class-properties", { "spec": true }],
+    ["import", { "libraryName": "antd", "libraryDirectory": "lib", "style": true }]
+  ],
+  "env": {
+    "test": {
+      "plugins": ["transform-es2015-modules-commonjs"]
+    }
+  }
+}

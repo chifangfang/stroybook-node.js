@@ -1,0 +1,125 @@
+.dropDown{
+  width: 100%;
+  height: 100%;
+  border: solid 1px transparent;
+  color:#c5d0da;
+  display: flex;
+  align-items: center;
+}
+.unit{
+  position: absolute;
+  right: 45px;
+}
+.inputNotSee{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: none;
+  background: transparent;
+  color:transparent;
+  &:focus{
+    outline: none;
+  }
+}
+.defaultBorder{
+  border: solid 0.5px #abafb7;
+  width: 150px;
+  height: 25px;
+}
+.dropDownCurrentData{
+  font-family: PingFangSC;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #353b4b;
+  padding-left: 5px;
+  position: relative;
+}
+
+.dropDownContainer{
+  width: 111px;
+  max-height: 185px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 4px 0 rgba(162, 162, 162, 0.5);
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: absolute;
+  z-index: 10;
+  top: 30px;
+}
+.dropDownBlock{
+  width: 111px;
+  height: 37px;
+  font-family: PingFangSC;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  cursor:pointer;
+  padding:10px 0 0 10px;
+  &:hover{
+    background-color: #f8f8f8;
+    color: #69bfd3;
+  }
+}
+
+.dropDownArrow{
+  color:#c5d0da;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+.floatLeft{
+  float: left;
+}
+
+.relative{
+  position: relative;
+}
+
+.inlineBlock{
+  display: inline-block;
+}
+
+.tips{
+  &::after{
+    content: attr(data-tips);
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba(125,125,125,0.5);
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    padding-top: 3px;
+  }
+}
+
+.dropDownArrowContainer{
+  right: 0px;
+  position: absolute;
+  width: 35px;
+  border-left: 1px solid #abafb7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rotate{
+  transform:rotate(180deg)
+}
+
+.rightContainer{
+  display: flex;
+  align-items: center;
+  right: 0px;
+  position: absolute;
+  height: 100%;
+}

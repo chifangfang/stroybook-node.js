@@ -1,0 +1,67 @@
+"BaiduMap={
+<p>static propTypes=(</p>
+<p>    ak: PropTypes.string,</p>
+<p>    callback: PropTypes.func,</p>
+<p>    id: PropTypes.string,</p>
+<p>)</p>
+}"
+"Buttons={
+<p>static propTypes=(</p>
+<p>    title: PropTypes.string,</p>
+<p>    onClick: PropTypes.func,</p>
+<p>    type: PropTypes.string,</p>
+<p>    className: PropTypes.string,</p>
+<p>)</p>
+}"
+"ChainedDropDown={
+<p>static propTypes=(</p>
+<p>    data: PropTypes.array,                      // 所有数据</p>
+<p>    defaultValue: PropTypes.object,             // 初始值</p>
+<p>    keyWords: PropTypes.array,                  //</p>
+<p>    className: PropTypes.string,</p>
+<p>    // onLastSelectorChange: PropTypes.func,</p>
+<p>    dropDownStyles: PropTypes.array,</p>
+<p>)</p>
+}"
+"DragGrid={
+<p>static propTypes=(</p>
+<p>    items: PropTypes.array,</p>
+<p>    className: PropTypes.string,</p>
+<p>    itemClass: PropTypes.string,</p>
+<p>    width: PropTypes.number,</p>
+<p>    height: PropTypes.number,</p>
+<p>    onSortStart: PropTypes.func,</p>
+<p>    onSortEnd: PropTypes.func,</p>
+<p>    component: PropTypes.func,</p>
+<p>    shouldUseDragHandle: PropTypes.bool,</p>
+<p>)</p>
+}"
+"Footer={
+<p>static propTypes=(</p>
+<p>    buttons: PropTypes.array,</p>
+<p>)</p>
+}"
+"Header={
+<p>static propTypes=(</p>
+<p>    title: PropTypes.string,</p>
+<p>    closeFunc: PropTypes.func,</p>
+<p>)</p>
+}"
+"RadioButtonGroup={
+<p>interface Button : ( label: string, value: string|number, click: any, )</p>
+<p>interface MyProps : ( buttons: Button[], defaultValue?: string|number, className?: string, )</p>
+<p>interface MyState : ( current: string|number, )</p>
+}"
+"TCN={
+<p>static propTypes=(</p>
+<p>    title: PropTypes.string,</p>
+<p>    showIcon: PropTypes.bool,</p>
+<p>    className: PropTypes.string,</p>
+<p>)</p>
+}"
+"Title={
+<p>static propTypes=(</p>
+<p>    title: PropTypes.string,</p>
+<p>    className: PropTypes.string,</p>
+<p>)</p>
+}"
